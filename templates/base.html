@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>{%block title%}title{%endblock%}</title>
+        <title>{%block title%}Experimental Web Page{%endblock%}</title>
         <meta name="author" content="David J. Hammaker">
         <meta name="description" content="A new web-page lab for implementing learned skills.">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="{{url_for('static', filename='css/main.css'}}">
+        <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
     </head>
     <body>
         {%block header%}
@@ -34,18 +34,6 @@
         {%endblock%}
 
         {%block content%}
-            <div class="content">
-                <h2>h2 header</h2>
-                <p>p under h2 header</p>
-            </div>
-            <div class="content">
-                <h2>h2 header</h2>
-                <p>p under h2 header</p>
-            </div>
-            <div class="content">
-                <h2>h2 header</h2>
-                <p>p under h2 header</p>
-            </div>
         {%endblock%}
 
         {%block right_col%}
