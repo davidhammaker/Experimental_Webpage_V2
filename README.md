@@ -1,10 +1,8 @@
-# HTML Templates
-A collection of templates including HTML, CSS, and more to come!
+# Experimental Web-Page | V2
+Inspired by my first [Experimental Web-Page](https://github.com/davidhammaker/Experimental_Webpage), but better!
 
 ## Purpose
-I will be using these files to help me with practicing [Flask](http://flask.pocoo.org/). They may be useful for other applications, too.
-
-These files are organized according to their usage within the Flask microframework. HTML files are in the `templates` directory. CSS files (and possibly JavaScript in the future) are in the `static` directory.
+Just like its predecessor, this repo exists as a kind of training grounds. I will be practicing what I learn by applying my new skills here.
 
 ## Copyright
 
