@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>title</title>
+        <title>{%block title%}title{%endblock%}</title>
         <meta name="author" content="">
         <meta name="description" content="">
         <meta charset="utf-8">
@@ -9,43 +9,56 @@
         <link rel="stylesheet" href="../static/css/main.css">
     </head>
     <body>
-        <header>
-            <h1>h1 header</h1>
-        </header>
+        {%block header%}
+            <header>
+                <h1>h1 header</h1>
+            </header>
+        {%endblock%}
 
-        <div class="links">
-            <ul>
-                <li><a href="">link 1</a></li>
-                <li><a href="">link 2</a></li>
-                <li><a href="">link 3</a></li>
-            </ul>
-        </div>
 
-        <div class="left_col">
-            <h3>h3 header left</h3>
-            <p>p under h3 header left</p>
-        </div>
+        {%block links%}
+            <div class="links">
+                <ul>
+                    <li><a href="">link 1</a></li>
+                    <li><a href="">link 2</a></li>
+                    <li><a href="">link 3</a></li>
+                </ul>
+            </div>
+        {%endblock%}
 
-        <div class="content">
-            <h2>h2 header</h2>
-            <p>p under h2 header</p>
-        </div>
-        <div class="content">
-            <h2>h2 header</h2>
-            <p>p under h2 header</p>
-        </div>
-        <div class="content">
-            <h2>h2 header</h2>
-            <p>p under h2 header</p>
-        </div>
+        {%block left_col%}
+            <div class="left_col">
+                <h3>h3 header left</h3>
+                <p>p under h3 header left</p>
+            </div>
+        {%endblock%}
 
-        <div class="right_col">
-            <h3>h3 header right</h3>
-            <p>p under h3 header right</p>
-        </div>
+        {%block content%}
+            <div class="content">
+                <h2>h2 header</h2>
+                <p>p under h2 header</p>
+            </div>
+            <div class="content">
+                <h2>h2 header</h2>
+                <p>p under h2 header</p>
+            </div>
+            <div class="content">
+                <h2>h2 header</h2>
+                <p>p under h2 header</p>
+            </div>
+        {%endblock%}
 
-        <footer>
-            <h3>h3 footer</h3>
-        </footer>
+        {%block right_col%}
+            <div class="right_col">
+                <h3>h3 header right</h3>
+                <p>p under h3 header right</p>
+            </div>
+        {%endblock%}
+
+        {%block footer%}
+            <footer>
+                <h3>h3 footer</h3>
+            </footer>
+        {%endblock%}
     </body>
 </html>
