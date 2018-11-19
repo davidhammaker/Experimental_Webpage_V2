@@ -1,0 +1,32 @@
+{%extends "base.html"%}
+
+{%block title%}Server Error{%endblock%}
+
+{%block header%}
+    <header>
+        <h1> </h1>
+    </header>
+{%endblock%}
+
+{%block links%}
+{%endblock%}
+
+{%block left_col%}
+{%endblock%}
+
+{%block content%}
+    <div class="content">
+        <h2>500 | Server Error</h2>
+        <p>Something went wrong, and it's probably our fault. Try refreshing the page. If that doesn't work, come back later. If this problem persists, please contact us.</p>
+        <p>Click <a href="{{url_for('index')}}">here</a> to return to the home page.</p>
+    </div>
+{%endblock%}
+
+{%block right_col%}
+{%endblock%}
+
+{%block footer%}
+    <footer>
+        <h3> </h3>
+    </footer>
+{%endblock%}
