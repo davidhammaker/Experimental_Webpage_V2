@@ -29,12 +29,14 @@ header h1 a{
 }
 
 .links ul li{
-    margin: 0 1% 0 1%;
     display: inline;
+    margin: 0 1% 0 1%;
     color: white;
 }
 
 .links ul li a{
+    display: inline-block;
+    width: 200px;
     padding: 10px;
     text-decoration: none;
     color: white;
